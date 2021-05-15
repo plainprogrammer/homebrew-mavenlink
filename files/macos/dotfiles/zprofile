@@ -1,0 +1,11 @@
+#!/bin/zsh
+
+export GIT_DUET_CO_AUTHORED_BY=1
+export COLLATION=utf8mb4_unicode_ci
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+source $HOME/.extra/rbenv
+source $HOME/.extra/asdf
+
+source $HOME/.userprofile

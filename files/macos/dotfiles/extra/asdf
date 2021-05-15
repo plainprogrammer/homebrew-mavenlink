@@ -1,0 +1,11 @@
+#!/bin/zsh
+
+if [ -f $(brew --prefix asdf)/asdf.sh ]
+then
+  source $(brew --prefix asdf)/asdf.sh
+fi
+
+if [ -f $HOME/.asdf/asdf.sh ]
+then
+  source $HOME/.asdf/asdf.sh
+fi
